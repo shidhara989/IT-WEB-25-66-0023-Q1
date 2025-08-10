@@ -1,0 +1,295 @@
+/* Custom styles to match the Taskia UI design exactly */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom font weights and line heights */
+.text-5xl {
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.text-4xl {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Button hover effects */
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Input focus effects */
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Card hover effects */
+.bg-taskia-blue:hover,
+.bg-taskia-gray:hover,
+.bg-taskia-yellow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Image hover effects */
+img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+/* Custom spacing for mobile responsiveness */
+@media (max-width: 768px) {
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+    
+    .text-4xl {
+        font-size: 2rem;
+    }
+    
+    .py-16 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/* Custom colors to match the design exactly */
+.bg-taskia-blue {
+    background-color: #2563eb;
+}
+
+.bg-taskia-light-blue {
+    background-color: #3b82f6;
+}
+
+.bg-taskia-gray {
+    background-color: #f8fafc;
+}
+
+.bg-taskia-yellow {
+    background-color: #fef3c7;
+}
+
+.text-taskia-blue {
+    color: #2563eb;
+}
+
+.border-taskia-light-blue {
+    border-color: #3b82f6;
+}
+
+/* Custom rounded corners */
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+/* Custom shadows */
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Focus ring for accessibility */
+.focus\:ring-2:focus {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Smooth transitions */
+.transition-colors {
+    transition-property: color, background-color, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+/* Custom grid gaps */
+.gap-16 {
+    gap: 4rem;
+}
+
+.gap-12 {
+    gap: 3rem;
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+/* Custom padding */
+.p-8 {
+    padding: 2rem;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Custom margins */
+.mb-20 {
+    margin-bottom: 5rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+/* Custom text colors */
+.text-blue-100 {
+    color: #dbeafe;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.text-gray-900 {
+    color: #111827;
+}
+
+/* Custom background opacity */
+.bg-opacity-20 {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Custom width and height */
+.w-40 {
+    width: 10rem;
+}
+
+.h-40 {
+    height: 10rem;
+}
+
+.w-32 {
+    width: 8rem;
+}
+
+.h-32 {
+    height: 8rem;
+}
+
+.w-16 {
+    width: 4rem;
+}
+
+.h-16 {
+    height: 4rem;
+}
+
+.w-8 {
+    width: 2rem;
+}
+
+.h-8 {
+    height: 2rem;
+}
+
+.w-20 {
+    width: 5rem;
+}
+
+.h-20 {
+    height: 5rem;
+}
+
+.h-12 {
+    height: 3rem;
+}
+
+/* Custom max width */
+.max-w-md {
+    max-width: 28rem;
+}
+
+.max-w-2xl {
+    max-width: 42rem;
+}
+
+.max-w-7xl {
+    max-width: 80rem;
+}
+
+/* Custom flex properties */
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+/* Custom leading */
+.leading-tight {
+    line-height: 1.25;
+}
+
+.leading-relaxed {
+    line-height: 1.625;
+}
+
+/* Custom font sizes */
+.text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* Custom font weights */
+.font-bold {
+    font-weight: 700;
+}
+
+.font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+} 
